@@ -2,7 +2,7 @@
 
 desc "Push the site directory to github pages as the subdirectory"
 task :site do |task, args|
-  subdir = '/myblog'
+  subdir = 'site'
   puts subdir
-  sh "git push origin gh-pages"
+  sh "git subtree push --prefix #{subdir} origin gh-pages"
 end
