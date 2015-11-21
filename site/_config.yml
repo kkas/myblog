@@ -9,7 +9,7 @@
 title: KKAS's BLOG
 email: kentakikui@gmail.com
 description: This is my blog about anything related to my work.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/myblog" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: teriyakik
 github_username:  kkas
