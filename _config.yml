@@ -15,4 +15,5 @@ twitter_username: teriyakik
 github_username:  kkas
 
 # Build settings
-markdown: kramdown
+kramdown:
+  input: GFM
