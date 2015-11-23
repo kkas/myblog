@@ -21,7 +21,7 @@ task :serve do
 
   options = {
     'source' => File.expand_path(subdir),
-    'destication' => File.expand_path(destdir),
+    'destination' => File.expand_path(destdir),
     'watch' => true,
     'serving' => true
   }
