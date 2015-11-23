@@ -4,6 +4,9 @@ require 'rubygems'
 subdir = 'site'
 destdir = 'site/_site'
 
+desc "Uploads the newest contents by generating and pushing the site"
+task :uploads => [:generate, :site]
+
 desc "Push the site directory to github pages as the subdirectory"
 task :site do |task, args|
   sh "git subtree push --prefix #{subdir} origin gh-pages"
