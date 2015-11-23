@@ -12,7 +12,7 @@ task :site do |task, args|
   sh "git subtree push --prefix #{subdir} origin gh-pages"
 end
 
-desc "Generate the site in the "
+desc "Generate the site"
 task :generate do
   sh "jekyll build --source #{subdir} --destination #{destdir}"
 end
