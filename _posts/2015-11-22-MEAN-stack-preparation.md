@@ -1,3 +1,7 @@
+---
+layout: post
+title: I WILL Learn MEAN Stack!
+---
 # MEAN Stack
 
 *This is my note for the ["M101x Introduction to MongoDB using the MEAN Stack"](https://www.edx.org/course/introduction-mongodb-using-mean-stack-mongodbx-m101x) at edX.
