@@ -44,6 +44,7 @@ you will have to use 2 queries: one for user and one for reviews.
 There is no way to do this by one query unless you change the schema.
 
 **example(one-to-many):**
+
 ```
 (Users)
 {
@@ -68,6 +69,7 @@ There is no way to do this by one query unless you change the schema.
 * If you expect only few hundred at most users to attend a meeting, then you can de-normalize this many-to-many relationship by keeping a list of ID's representing attendees.
   * There is a bound for the array growth.
   * It depends on the situation if 500 in an array is too big or not.
+
 ```
 (Users)
 {
